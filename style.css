@@ -1,8 +1,33 @@
 img{
     background-color: aquamarine;
+    
 }
 
 *{
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.images{
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+
+@keyframes fact1{
+    0%{left:100%;}
+    100%{left:0%;padding-left: 40px;}
+}
+
+.fact1{
+    animation-name: fact1;
+}
+
+.fact1{
+    position: absolute;
+    display: block;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
 }
