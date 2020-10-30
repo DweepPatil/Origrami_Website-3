@@ -5,8 +5,7 @@ img{
 
 *{
     font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;    
 }
 
 .images{
@@ -14,6 +13,11 @@ display:flex;
 flex-wrap: wrap;
 justify-content: space-around;
 
+}
+
+ul{
+    border:3px solid black
+    
 }
 
 @keyframes fact1{
@@ -30,4 +34,81 @@ justify-content: space-around;
     display: block;
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
+}
+
+@keyframes fact2{
+    0%{left:100%;}
+    100%{left:0%;padding-left: 40px;}
+}
+
+.fact2{
+    animation-name: fact2;
+}
+
+.fact2{
+    position: absolute;
+    display: block;
+    animation-duration: 20s;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes fact3{
+    0%{left:100%;}
+    100%{left:0%;padding-left: 40px;}
+}
+
+.fact3{
+    animation-name: fact3;
+}
+
+.fact3{
+    position: absolute;
+    display: block;
+    animation-duration: 20s;
+    animation-timing-function:ease-in-out;
+}
+@keyframes fact4{
+    0%{left:100%;}
+    100%{left:0%;padding-left: 40px;}
+}
+
+.fact4{
+    animation-name: fact4;
+}
+
+.fact4{
+    position: absolute;
+    display: block;
+    animation-duration: 20s;
+    animation-timing-function:ease-in-out;
+}
+@keyframes fact5{
+    0%{left:100%;}
+    100%{left:0%;padding-left: 40px;}
+}
+
+.fact5{
+    animation-name: fact5;
+}
+
+.fact5{
+    position: absolute;
+    display: block;
+    animation-duration: 20s;
+    animation-timing-function:ease-in-out;
+}
+@keyframes fact6{
+    0%{left:100%;}
+    100%{left:0%;padding-left: 40px;}
+}
+
+.fact6{
+    animation-name: fact6;
+}
+
+.fact6{
+    position: absolute;
+    display: block;
+    animation-duration: 20s;
+    animation-timing-function:ease-in-out;
 }
