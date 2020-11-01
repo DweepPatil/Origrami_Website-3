@@ -8,6 +8,21 @@ img{
     font-family: Georgia, 'Times New Roman', Times, serif;    
 }
 
+@keyframes colorChange{
+    0%{background-color: #08dee9;}
+    100%{background-color: #5f6f;}
+    0%{background-color: #0fd4df;}  
+}
+
+body{
+    animation-name: colorChange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    margin: 0px;
+}
+
 .images{
 display:flex;
 flex-wrap: wrap;
@@ -15,10 +30,7 @@ justify-content: space-around;
 
 }
 
-ul{
-    border:3px solid black
-    
-}
+
 
 @keyframes fact1{
     0%{left:100%;}
@@ -111,4 +123,59 @@ ul{
     display: block;
     animation-duration: 20s;
     animation-timing-function:ease-in-out;
+}
+
+.img1{
+    border:3px solid black;
+}
+.img2{
+    border:3px solid black;
+}
+.img3{
+    border:3px solid black;
+}
+.img4{
+    border:3px solid black;
+}
+.img5{
+    border:3px solid black;
+}
+.img6{
+    border:3px solid black;
+}
+
+.img1 :hover{
+    transform-origin: img1.left, img1.top;
+    transform: scale(1.2);
+    border:3px solid black;
+}
+
+.img2 :hover{
+    transform-origin: img2.left, img2.top;
+    transform: scale(1.2);
+    border:3px solid black;
+}
+
+.img3 :hover{
+    transform-origin: img3.left, img3.top;
+    transform: scale(1.2);
+    border:3px solid black;
+}
+
+.img4 :hover{
+    transform-origin: img4.left, img4.top;
+    transform: scale(1.2);
+    border:3px solid black;
+}
+
+.img5 :hover{
+    transform-origin: img5.left, img5.top;
+    transform: scale(1.2);
+    border:3px solid black;
+}
+
+.img6 :hover{
+    transform-origin: img6.left, img6.top;
+    transform: scale(1.2);
+    border:3px solid black;
 }

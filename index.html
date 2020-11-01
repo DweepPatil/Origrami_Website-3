@@ -4,10 +4,17 @@
         <title>Origrami Designs</title>
 
         <link rel="stylesheet" type="text/css" href="style.css"/>
+
+        <script type="text/javascript">
+          function getXY(element,id){
+              var rect=element.getBoundingClientRect();
+              console.log(rect.x +'     '+rect.y);
+          }
+        </script>
        
     </head>
 
-    <body style="background-color:cornflowerblue">
+    <body>
      <h1 align=center>Origrami Designs</h1>
      <hr color="black">
 
@@ -21,12 +28,30 @@
          <br>
 
          <div class="images">
-         <a href=http://origami.me/camel target="_blank"><img src=images/camel.png width="200"/></a>
-         <a href=http://origami.me/chameleon target="_blank"><img src=images/chameleon.png width="200"/></a>
-         <a href=http://origami.me/flying-cicada target="_blank"><img src=images/cicada.png width="200"/></a>
-         <a href=http://origami.me/panda target="_blank"><img src=images/panda.png width="200"/></a>
-         <a href=http://origami.me/pigeon target="_blank"><img src=images/pigeon.png width="200"/></a>
-         <a href=http://origami.me/teddy-bear target="_blank"><img src=images/teddy.png width="200"/></a>
+             <div class="img1">
+         <a href=http://origami.me/camel target="_blank"  onmouseover="getXY(this)"><img src=images/camel.png width="200"/></a>
+        </div>
+
+         <div class="img2">
+         <a href=http://origami.me/chameleon target="_blank" onmouseover="getXY(this)"><img src=images/chameleon.png width="200"/></a>
+        </div>
+
+         <div class="img3">
+         <a href=http://origami.me/flying-cicada target="_blank" onmouseover="getXY(this)"><img src=images/cicada.png width="200"/></a>
+        </div>
+
+         <div class="img4">
+         <a href=http://origami.me/panda target="_blank" onmouseover="getXY(this)"><img src=images/panda.png width="200"/></a>
+        </div>
+
+         <div class="img5">
+         <a href=http://origami.me/pigeon target="_blank" onmouseover="getXY(this)"><img src=images/pigeon.png width="200"/></a>
+        </div>
+
+         <div class="img6">
+         <a href=http://origami.me/teddy-bear target="_blank" onmouseover="getXY(this)"><img src=images/teddy.png width="200"/></a>
+        </div>
+
          </div>
 
          <ul>
@@ -126,6 +151,9 @@
             
          </ul>
 
+         <br>
+         <br>
+         <br>
          <br>
          <br>
         
