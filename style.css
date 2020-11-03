@@ -144,38 +144,115 @@ justify-content: space-around;
     border:3px solid black;
 }
 
+
+@keyframes img1A{
+    0%{transform: rotate(0deg)}
+    1%{transform: rotate(-10deg)}
+    20%{transform: rotate(10deg)}
+    40%{transform: rotate(-10deg)}
+    60%{transform: rotate(10deg)}
+    80%{transform: rotate(-10deg)}
+    99%{transform: rotate(10deg)}
+    100%{transform: rotate(0deg)}
+}
 .img1 :hover{
-    transform-origin: img1.left, img1.top;
     transform: scale(1.2);
-    border:3px solid black;
+    animation-name:img1A;
+    animation-duration:10s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite  
 }
 
+
+@keyframes img2A{
+    0%{transform: rotate(0deg)}
+    1%{transform: rotate(-10deg)}
+    20%{transform: rotate(10deg)}
+    40%{transform: rotate(-10deg)}
+    60%{transform: rotate(10deg)}
+    80%{transform: rotate(-10deg)}
+    99%{transform: rotate(10deg)}
+    100%{transform: rotate(0deg)}
+}
 .img2 :hover{
-    transform-origin: img2.left, img2.top;
     transform: scale(1.2);
-    border:3px solid black;
+    animation-name:img2A;
+    animation-duration:10s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite  
 }
 
+
+@keyframes img3A{
+    0%{transform: rotate(0deg)}
+    1%{transform: rotate(-10deg)}
+    20%{transform: rotate(10deg)}
+    40%{transform: rotate(-10deg)}
+    60%{transform: rotate(10deg)}
+    80%{transform: rotate(-10deg)}
+    99%{transform: rotate(10deg)}
+    100%{transform: rotate(0deg)}
+}
 .img3 :hover{
-    transform-origin: img3.left, img3.top;
     transform: scale(1.2);
-    border:3px solid black;
+    animation-name:img3A;
+    animation-duration:10s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite  
 }
 
+
+@keyframes img4A{
+    0%{transform: rotate(0deg)}
+    1%{transform: rotate(-10deg)}
+    20%{transform: rotate(10deg)}
+    40%{transform: rotate(-10deg)}
+    60%{transform: rotate(10deg)}
+    80%{transform: rotate(-10deg)}
+    99%{transform: rotate(10deg)}
+    100%{transform: rotate(0deg)}
+}
 .img4 :hover{
-    transform-origin: img4.left, img4.top;
     transform: scale(1.2);
-    border:3px solid black;
+    animation-name:img4A;
+    animation-duration:10s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite  
 }
 
+
+@keyframes img5A{
+    0%{transform: rotate(0deg)}
+    1%{transform: rotate(-10deg)}
+    20%{transform: rotate(10deg)}
+    40%{transform: rotate(-10deg)}
+    60%{transform: rotate(10deg)}
+    80%{transform: rotate(-10deg)}
+    99%{transform: rotate(10deg)}
+    100%{transform: rotate(0deg)}
+}
 .img5 :hover{
-    transform-origin: img5.left, img5.top;
     transform: scale(1.2);
-    border:3px solid black;
+    animation-name:img5A;
+    animation-duration:10s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite   
 }
 
+@keyframes img6A{
+    0%{transform: rotate(0deg)}
+    1%{transform: rotate(-10deg)}
+    20%{transform: rotate(10deg)}
+    40%{transform: rotate(-10deg)}
+    60%{transform: rotate(10deg)}
+    80%{transform: rotate(-10deg)}
+    99%{transform: rotate(10deg)}
+    100%{transform: rotate(0deg)}
+}
 .img6 :hover{
-    transform-origin: img6.left, img6.top;
     transform: scale(1.2);
-    border:3px solid black;
+    animation-name:img6A;
+    animation-duration:10s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite   
 }
